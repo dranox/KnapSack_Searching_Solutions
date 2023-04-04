@@ -64,7 +64,7 @@ class GeneticAlgorithm:
             solution[mutation_point] = 1 - solution[mutation_point]
         return solution
 
-        # USE BIT MASK
+        # # USE BIT MASK
         # mutated_solution = solution.copy()  # create a copy of the original solution
         # # create a bit mask with all bits set to 1
         # mask = (1 << len(solution)) - 1
